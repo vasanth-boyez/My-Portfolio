@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="art.css" />
+    <script>
+      function f1() {
+        alert("This is an alert message !!");
+      }
+    </script>
+    <style>
+      html {
+        font-size: 30px;
+      }
+      .container .form-container {
+        box-shadow: 2px 3px 1px black;
+      }
+    </style>
+    <title>Webpage</title>
+  </head>
+  <body>
+    <header>
+      <h1 align="center">Sections</h1>
+      <nav>
+        <a href="#section1" class="sec">Section 1</a>
+        <a href="#section2" class="sec">Section 2</a>
+        <a href="#section3" class="sec">Section 3</a>
+        <a href="#section4" class="sec">Section 4</a>
+      </nav>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </header>
+    <h2 id="#section1">Section 1</h2>
+    <p onclick="f1()">This is a paragraph !!</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Blog</li>
+          <li>Content</li>
+        </ul>
+      </nav>
+      <nav>
+        <ol>
+          <li>Objects</li>
+          <li>Classes</li>
+          <li>Variables</li>
+          <li>Operators</li>
+        </ol>
+      </nav>
+    </header>
+    <p>
+      Lorem, ipsum dolor sit <em>Language</em>amet consectetur adipisicing elit.
+      Ut expedita natus sed id, <strong> Hello world</strong> accusamus itaque
+      tenetur eius inventore vitae. <br />
+      iste autem ratione<i>Grasp</i> corporis nisi cum <b>brisk</b>animi alias.
+      Vel, odit blanditiis.
+    </p>
+    <hr />
+    <h2 id="section2">Section 2</h2>
+    <ul>
+      <li>Subjects</li>
+      <ol>
+        <li>Maths</li>
+        <li>Science</li>
+        <li>Social</li>
+      </ol>
+      <li>Languages</li>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ol>
+      <li>Pl</li>
+      <ol>
+        <li>C</li>
+        <li>C++</li>
+        <li>JAVA</li>
+      </ol>
+    </ul>
+    <hr />
+    <h2 id="section3">Section 3</h2>
+    <div class="container form-container">
+      <form>
+        <h2>REGISTRATION FORM</h2>
+        <label>Enter Your Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="name" required /><br />
+
+        <label>Enter Your Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" placeholder="example@gmail.com" required /><br />
+
+        <label
+          >Enter
+          Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="password" name="password" required /><br />
+        <label>Confirm Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input
+          type="password"
+          name="confirm_password"
+          onblur="f4()"
+          required
+        /><br />
+        <label>Contact Number :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="string" name="contact_number" required /><br />
+        <label for="Date"
+          >Enter Hobbies:
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="text" placeholder="Enter your hobbies" /><br />
+        <label>Enter Your Birthday: &nbsp;</label>
+        <input type="date" name="dob" /><br />
+        <label>Enter Your Gender :</label><br />
+        <input type="radio" name="r1" />Male<br />
+        <input type="radio" name="r1" />Female<br />
+        <label>Known Languages</label><br />
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" /> C<br />
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" /> C++ <br />
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" /> Python<br />
+        &nbsp;&nbsp;&nbsp;<input type="checkbox" /> Java<br />
+        <ul>
+          <li>
+            Subjects
+            <ul>
+              <li>WT</li>
+              <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ol>
+            </ul>
+          </li>
+
+          <li>
+            Clubs
+            <ul>
+              <li>WT</li>
+              <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+              </ol>
+            </ul>
+          </li>
+        </ul>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+    <br />
+    <hr />
+    <h2 id="section4">Section 4</h2>
+    <div class="fcontainer">
+      <h1>TABLE</h1>
+      <table>
+        <tr>
+          <th><b>Periods</b></th>
+          <td><b>1</b></td>
+          <td><b>2</b></td>
+          <td><b>3</b></td>
+          <td><b>4</b></td>
+          <td rowspan="8" class="lb">
+            <b
+              >(1:00-2:00PM)<br /><br />L<br />U<br />N<br />C<br />H<br />B<br />R<br />E<br />A<br />K<br /><br />
+            </b>
+          </td>
+          <td><b>5</b></td>
+          <td><b>6</b></td>
+          <td><b>7</b></td>
+        </tr>
+        <tr>
+          <th>Day/Time</th>
+          <th>(9:30-10:30AM)</th>
+          <th>(10:30-11:20AM)</th>
+          <th>(11:20-12:10PM)</th>
+          <th>(12:10-1:00PM)</th>
+          <th>(2:00-2:50PM)</th>
+          <th>(2:50-3:40PM)</th>
+          <th>(3:40-4:30PM)</th>
+        </tr>
+        <tr>
+          <th>Monday</th>
+          <td>ML</td>
+          <td colspan="3"><------------WT LAB-----------></td>
+          <td>ACD</td>
+          <td>ACD</td>
+          <td>WT</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td>WT</td>
+          <td colspan="3"><------------ML LAB-----------></td>
+          <td>DE</td>
+          <td>DE</td>
+          <td>ML</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>DE</td>
+          <td colspan="3"><------------MCCP-1-----------></td>
+          <td>WT</td>
+          <td>ACD</td>
+          <td>ML</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>WT</td>
+          <td>ML</td>
+          <td>ACD</td>
+          <td>LIBRARY</td>
+          <td>DE</td>
+          <td>WT</td>
+          <td>SPORTS</td>
+        </tr>
+        <tr>
+          <th>Friday</th>
+          <td colspan="2"><------ACD------></td>
+          <td>DE</td>
+          <td>ML</td>
+          <td>DE</td>
+          <td colspan="2">APTITUDE(V)</td>
+        </tr>
+        <tr>
+          <th>Saturday</th>
+          <td colspan="2"><--APTITUDE(V)--></td>
+          <td>WT</td>
+          <td>ML</td>
+          <td colspan="3"><-----------MCCP-1----------></td>
+        </tr>
+      </table>
+    </div>
+    <button onclick="f1()">CLICK !!</button>
+  </body>
+</html>

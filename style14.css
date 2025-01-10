@@ -1,0 +1,125 @@
+body {
+  font-family: "Rubik", sans-serif;
+  /* padding-left: 15px; */
+}
+
+.reg {
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+#modify {
+  list-style: square;
+}
+
+.rek {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  box-shadow: 0 3px 10px rgba(0 0 0 / 0.7);
+  margin: 0 auto;
+  padding: 48px;
+  background-image: linear-gradient(#020057, #2b0755);
+  color: #ffff;
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+select {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+select:hover {
+  font-weight: bold;
+  border: 2px solid #0000;
+  color: #4caf50;
+}
+
+option:hover {
+  select:hover {
+    font-weight: bold;
+    border: 2px solid #0000;
+    color: #4caf50;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"],
+[type="reset"] {
+  display: block;
+  margin-left: 20%;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 10px 120px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset {
+  padding: 10px 133px;
+}
+
+.refresh {
+  padding: 20px 20px;
+}
+
+#captchaCode {
+  background-image: url(img/download.jpg);
+  font-weight: bold;
+  font-size: 30px;
+  /* margin: 0 10px; */
+  /* padding: 20px 0px; */
+}
+
+#captchaContainer {
+  line-height: 2;
+}
+
+.innercontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#captcha {
+  width: 100px;
+}

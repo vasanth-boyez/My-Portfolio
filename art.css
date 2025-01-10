@@ -1,0 +1,61 @@
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+}
+
+nav {
+  text-decoration: none;
+}
+
+.intro {
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.intro2 {
+  font-size: 30px;
+  color: blue;
+  text-align: left;
+  padding: 30px 30px;
+}
+
+.intro3 {
+  font-size: 30px;
+  color: blue;
+  text-align: left;
+  padding: 30px 30px;
+}
+
+table {
+  font-size: 24px;
+  border: 1px solid #9999;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+th,
+tr,
+td {
+  border: 1px solid #9999;
+}
+
+td,
+th {
+  padding: 5px 28px;
+}
+
+.lb {
+  text-align: center;
+}
+
+.form-container {
+  border: 5px solid black;
+  width: 50%;
+  padding: 20px 20px;
+}
